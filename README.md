@@ -1,5 +1,8 @@
 # cmsc388T-web-template
 
+deployed using github workflows at:
+https://terpconnect.umd.edu/~jzohdi/cmsc389T-web-template/
+
 ## Changes I made to index.html
 
 - changed the header banner [image from unsplash][2]
