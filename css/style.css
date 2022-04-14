@@ -44,7 +44,7 @@ html, body {
 
 .main-header {
     background-color: red;
-    background-image: url('/assets/pawel-czerwinski-4-Lo8Pkxs_s-unsplash.jpg');
+    background-image: url('./assets/pawel-czerwinski-4-Lo8Pkxs_s-unsplash.jpg');
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
