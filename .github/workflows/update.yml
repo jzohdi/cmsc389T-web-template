@@ -16,5 +16,10 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd pub/jzohdi/cmsc389T-web-template
+            touch ~/.ssh/known_hosts
+            ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+            mkdir -p pub/jzohdi/cmsc389T-web-template
+            cd /pub/jzohdi/cmsc389T-web-template
+            git init
+            git remote add origin git@github.com:jzohdi/cmsc389T-web-template.git
             git pull
